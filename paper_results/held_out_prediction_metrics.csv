@@ -1,0 +1,181 @@
+mix,load_percent,model,partition,target,traffic_class,horizon,mae_bits,rmse_bits,r2,sample_count,unit
+136,10,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,441.17252606536215,1364.070455691085,-0.012411388547106439,512,bits
+136,10,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,334.8521674258998,1497.419132546087,-0.22002905113353033,512,bits
+136,10,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,437.59276047348976,1358.0045551502835,-0.0034272013934548706,512,bits
+136,10,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,435.8813774199324,1354.9550985063886,0.0010742152744867006,512,bits
+136,10,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,445.39920630912275,1905.631085517988,-0.9758823132008188,512,bits
+136,10,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,270.1484375,1382.3377928124153,-0.039708943879684044,512,bits
+136,20,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,788.4540338800819,1803.074089867409,-0.0095508317864621,512,bits
+136,20,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,440.2884352489732,1876.9304392096253,-0.09394981914982492,512,bits
+136,20,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,811.030542510871,1795.6786064401947,-0.0012862740663315275,512,bits
+136,20,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,811.030542510871,1795.6786064401947,-0.0012862740663315275,512,bits
+136,20,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,783.5615415451318,2634.0793463037007,-1.1545607890027103,512,bits
+136,20,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,407.240234375,1840.1532688160448,-0.051499427732367486,512,bits
+136,30,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1420.9622220386632,2569.010499625905,-0.003787910607889522,512,bits
+136,30,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,829.2939750269148,2686.594376049511,-0.09777770137623909,512,bits
+136,30,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1400.053674519062,2557.720852886122,0.0050150977778298245,512,bits
+136,30,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1401.9185297680478,2555.982269536305,0.006367298706283386,512,bits
+136,30,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1497.2146758063768,3822.6228104241045,-1.2224556149135264,512,bits
+136,30,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,804.525390625,2687.4096972474026,-0.09844410435168993,512,bits
+136,40,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2029.6804770136255,2957.5508548801067,-0.0038700619106535328,512,bits
+136,40,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1226.605684987028,3175.9218691790916,-0.15758443924056564,512,bits
+136,40,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1979.642930338011,2948.500776638899,0.002264204503998557,512,bits
+136,40,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1979.642930338011,2948.500776638899,0.002264204503998557,512,bits
+136,40,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1989.8041113195095,4267.621690447491,-1.0901857767171848,512,bits
+136,40,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1170.59765625,3175.4817886178703,-0.1572636535692964,512,bits
+136,50,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2828.501352521798,3843.006687683484,-0.018611059136967034,512,bits
+136,50,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1989.933661998326,4235.914180620914,-0.23754332505581188,512,bits
+136,50,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2620.2036929215155,3720.1742590649765,0.04546320632029843,512,bits
+136,50,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2620.2036929215155,3720.1742590649765,0.04546320632029843,512,bits
+136,50,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2906.8007620254684,5419.420254775134,-1.0256843221290621,512,bits
+136,50,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1745.408203125,4188.7123359336965,-0.2101164874674133,512,bits
+136,60,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3647.1592559578853,4826.920856627092,0.018427171695663103,512,bits
+136,60,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2946.0118928174043,5429.368750780084,-0.24188347905850338,512,bits
+136,60,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3603.6131987571716,4715.935895236427,0.06304667296040278,512,bits
+136,60,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3609.0625428106887,4717.552218559253,0.062404306706086765,512,bits
+136,60,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,4419.3569717575,6968.814570944147,-1.04597342906633,512,bits
+136,60,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2815.412109375,5626.998135558437,-0.3339382140185825,512,bits
+136,70,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,4890.325533609927,6467.641113896278,0.012380560143947061,512,bits
+136,70,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,4651.684437241844,7035.763019199128,-0.168746193776107,512,bits
+136,70,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,4790.4436891341375,6293.431069884007,0.06486833469165398,512,bits
+136,70,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,4790.4436891341375,6293.431069884007,0.06486833469165398,512,bits
+136,70,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,6674.75023821383,9721.52142168746,-1.2313427111081219,512,bits
+136,70,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,4458.921875,7889.026649997768,-0.46941561239198126,512,bits
+136,80,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,6915.77542397075,8630.596039675434,0.032464551923196194,512,bits
+136,80,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,6520.2169526768,8479.72392420872,0.06599600832497732,512,bits
+136,80,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,6469.997186660767,8267.404377104745,0.11218257000370513,512,bits
+136,80,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,6494.31551304465,8262.71676531378,0.11318906815249852,512,bits
+136,80,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,8955.105229662477,11959.56850119431,-0.8578743012760728,512,bits
+136,80,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,8612.16796875,12294.549931874031,-0.9634080907893077,512,bits
+136,90,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,8395.560617182968,10419.992920098803,0.06865690112461154,512,bits
+136,90,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,8118.337180281596,10571.636434321503,0.041351733756545106,512,bits
+136,90,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,7970.683940887451,9958.046523076962,0.14940435475628866,512,bits
+136,90,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,7963.352791081032,9950.829202685049,0.15063688496869743,512,bits
+136,90,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,11504.299982563647,15268.64643900918,-0.9997510360344046,512,bits
+136,90,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,13229.658203125,17076.420888389403,-1.5013159590453946,512,bits
+136,100,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9299.088092696802,11545.231458195934,0.08597444014197342,512,bits
+136,100,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9109.332928735535,11732.072674847059,0.05615095316542107,512,bits
+136,100,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,8820.326153755188,11094.653670336427,0.15592594307473095,512,bits
+136,100,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,8817.470397473873,11079.382832291214,0.15824793487530142,512,bits
+136,100,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,11817.106405973438,15761.809461846737,-0.7035904577438481,512,bits
+136,100,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,14751.765625,19064.22338193324,-1.4922481868599262,512,bits
+244,10,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,390.66950295769874,1226.6253318923327,-0.021241095730976323,512,bits
+244,10,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,199.37089246945882,1250.063028962475,-0.06064059697339563,512,bits
+244,10,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,407.9620465040207,1208.6436696863598,0.008481121217163934,512,bits
+244,10,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,406.8649459233917,1209.6673617001532,0.006800824819358731,512,bits
+244,10,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,396.39469278609783,1956.1270350445297,-1.597158980059393,512,bits
+244,10,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,177.048828125,1226.6463100347528,-0.02127602721949584,512,bits
+244,20,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1127.1937787419192,2211.3441605951325,-0.001955485123384282,512,bits
+244,20,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,620.7705917029955,2343.4952944602387,-0.12528860482412885,512,bits
+244,20,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1107.04618704319,2210.4938939871085,-0.0011851251562855492,512,bits
+244,20,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1083.446473022266,2217.102743113926,-0.007180683531083254,512,bits
+244,20,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,832.025694531719,2681.092817839702,-0.47285314992705074,512,bits
+244,20,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,574.62890625,2282.6952562294646,-0.06765668075881592,512,bits
+244,30,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1721.7413775071568,2648.269492935142,-0.018377683519328114,512,bits
+244,30,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,939.3634204440658,2822.533723520837,-0.15681203328511284,512,bits
+244,30,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1713.0898127555847,2626.5009663370174,-0.0017045542026723481,512,bits
+244,30,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1720.266804014037,2633.3470367399054,-0.0069333186031794725,512,bits
+244,30,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1978.6638900505072,4262.67967782357,-1.638456360436371,512,bits
+244,30,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,863.40625,2762.650685228545,-0.10824675713957865,512,bits
+244,40,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2675.4217615615953,3796.0544561035736,-0.0030403961103744326,512,bits
+244,40,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1814.4292996831043,4146.1549998365945,-0.1965879458660411,512,bits
+244,40,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2561.0307990199035,3743.727972274135,0.024421715159852253,512,bits
+244,40,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2561.0307990199035,3743.727972274135,0.024421715159852253,512,bits
+244,40,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2651.728419507624,4934.053179077443,-0.6945766118744521,512,bits
+244,40,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1762.01171875,4179.836759484454,-0.2161081477619773,512,bits
+244,50,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3399.8399055078835,4793.388997833176,-0.0009652174506760147,512,bits
+244,50,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2717.404944506994,5307.56207585676,-0.22722389159095902,512,bits
+244,50,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3297.028666886824,4713.6040099725315,0.03207919199751519,512,bits
+244,50,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3297.028666886824,4713.6040099725315,0.03207919199751519,512,bits
+244,50,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3814.731860918424,6398.0019062364,-0.7832916140100683,512,bits
+244,50,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2437.26953125,5375.379506951114,-0.2587859867848601,512,bits
+244,60,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,4345.985890982917,5313.801971249018,-0.023100886263109688,512,bits
+244,60,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3544.0275133885298,5761.149206885423,-0.20261322624917932,512,bits
+244,60,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,4087.512421539365,5096.135078478272,0.059000069078538164,512,bits
+244,60,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,4087.512421539365,5096.135078478272,0.059000069078538164,512,bits
+244,60,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,5105.5495234875025,7642.065204894646,-1.1160659920489073,512,bits
+244,60,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3213.392578125,6158.313362496514,-0.3741409996310938,512,bits
+244,70,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,5778.131775693668,7065.643625825362,-0.013979407165412017,512,bits
+244,70,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,5548.716460410673,7516.29493369095,-0.14744876689337527,512,bits
+244,70,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,5416.3829691980645,6768.3950212789505,0.06954136221898222,512,bits
+244,70,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,5416.3829691980645,6768.3950212789505,0.06954136221898222,512,bits
+244,70,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,7194.093364149205,9884.042588843999,-0.9842431667084042,512,bits
+244,70,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,6087.787109375,9289.574533932346,-0.7527392997179008,512,bits
+244,80,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,8267.413986812662,10319.237768498491,0.036704231883537664,512,bits
+244,80,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,7960.239239741542,10308.548100076798,0.03869894876207092,512,bits
+244,80,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,7739.630821260915,9776.028809817713,0.13545150452055665,512,bits
+244,80,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,7739.630821260915,9776.028809817713,0.13545150452055665,512,bits
+244,80,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,11143.941646184303,14781.564385836626,-0.9765382020319171,512,bits
+244,80,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,11443.3125,15540.061310785384,-1.1845896394173132,512,bits
+244,90,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,10082.282781497264,12559.895137342914,0.06614508667423036,512,bits
+244,90,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9517.692450243672,12287.46218156931,0.1062176596872566,512,bits
+244,90,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9241.73356241366,11652.907605727645,0.19614820267617705,512,bits
+244,90,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9241.73356241366,11652.907605727645,0.19614820267617705,512,bits
+244,90,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,14121.158117569033,18234.07949932106,-0.96822647387828,512,bits
+244,90,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,17752.609375,22001.809711433398,-1.8656568851343072,512,bits
+244,100,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,11116.911073615498,14243.459597030262,0.03189533927976229,512,bits
+244,100,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,10763.27959188831,14190.361824193415,0.039099823120897215,512,bits
+244,100,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9978.776578287165,13120.693485555685,0.1785050180181431,512,bits
+244,100,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9978.776578287165,13120.693485555685,0.1785050180181431,512,bits
+244,100,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,14728.815686715709,19217.43790539958,-0.7623100093683834,512,bits
+244,100,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,20546.607421875,25134.10450716224,-2.0145199893270407,512,bits
+163,10,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,629.371580319794,1645.607963171005,-0.011299571408790454,512,bits
+163,10,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,377.35362149991954,1713.4340514931948,-0.09638188085617716,512,bits
+163,10,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,638.7303221225739,1640.0951595928213,-0.004535192885855688,512,bits
+163,10,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,639.4423847077157,1640.0013255394579,-0.004420252100955091,512,bits
+163,10,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,676.9806892485517,2458.9899914386137,-1.2580865545702031,512,bits
+163,10,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,330.6953125,1669.4691755540143,-0.04083975617923863,512,bits
+163,20,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1429.3966339676904,2425.3934613663955,-0.01366465108964654,512,bits
+163,20,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,796.1420825368987,2526.1513472696306,-0.09963519158152923,512,bits
+163,20,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1405.7968363081277,2391.679153751559,0.0143204793336551,512,bits
+163,20,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1405.7968363081277,2391.679153751559,0.0143204793336551,512,bits
+163,20,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1443.4513473574211,3653.327358110743,-1.2998900548210828,512,bits
+163,20,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,778.6015625,2531.6900805711784,-0.10446250570369675,512,bits
+163,30,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2547.7648241108527,3704.889473348666,-0.0019949305266602213,512,bits
+163,30,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1751.9143219881635,4039.2902430235226,-0.19103666914843664,512,bits
+163,30,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2485.364006638527,3633.0732074214993,0.03647428503758243,512,bits
+163,30,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2496.338370384554,3638.960702659724,0.033348914773382865,512,bits
+163,30,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2579.8263847751537,4960.7474979748085,-0.7964256836821961,512,bits
+163,30,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,1684.72265625,4066.591709147385,-0.2071914568880462,512,bits
+163,40,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3060.051798629196,4023.860872841037,0.013729328620376569,512,bits
+163,40,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2249.01729109478,4482.178409428769,-0.22373810845798436,512,bits
+163,40,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3067.2082662016455,3988.2698928488717,0.03109926313932143,512,bits
+163,40,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3067.2082662016455,3988.2698928488717,0.03109926313932143,512,bits
+163,40,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3427.116035496205,5870.280348422271,-1.099074684659938,512,bits
+163,40,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,2153.251953125,4588.3921592886845,-0.28242289839323353,512,bits
+163,50,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,4001.45427831526,5121.216246482759,-0.01202513201672506,512,bits
+163,50,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3496.3858417127476,5717.501256637876,-0.2614138814789948,512,bits
+163,50,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3887.2082023620605,5030.541106091588,0.02349499694312651,512,bits
+163,50,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3884.9869524789947,5024.186944091559,0.025960319107669383,512,bits
+163,50,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,5215.658212027859,8255.364610805154,-1.6297689124867527,512,bits
+163,50,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,3091.498046875,5955.886336451895,-0.36879329910783354,512,bits
+163,60,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,5782.291338152381,7214.260970320979,-0.0038051562040222198,512,bits
+163,60,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,5223.658897706027,7628.683781484534,-0.12244469463500285,512,bits
+163,60,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,5301.990487098694,6939.074901861266,0.07131404855881907,512,bits
+163,60,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,5305.175772895591,6948.972900851837,0.0686627762676506,512,bits
+163,60,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,6844.732578066379,9785.498477884043,-0.8468500374370109,512,bits
+163,60,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,5427.974609375,9017.271147051813,-0.5682524803769768,512,bits
+163,70,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,7245.525608134555,9412.63644361848,0.0371243131576926,512,bits
+163,70,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,7094.433341415675,9562.515399767213,0.006216123327735579,512,bits
+163,70,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,7117.049575805664,9132.893805752015,0.09350697460510782,512,bits
+163,70,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,7106.449159363412,9121.419311707261,0.09578336472451865,512,bits
+163,70,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9087.609546125146,12401.671244469451,-0.6715065401067841,512,bits
+163,70,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9637.193359375,13597.395520159022,-1.0093662905618976,512,bits
+163,80,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,10029.301688151081,12875.037811926291,0.099679916614407,512,bits
+163,80,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9627.84558409851,12355.389605138265,0.17088876338462833,512,bits
+163,80,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9235.125783815578,11904.228418311819,0.2303338002331382,512,bits
+163,80,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,9235.125783815578,11904.228418311819,0.2303338002331382,512,bits
+163,80,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,13044.91319323463,16960.56733401646,-0.5623583847128026,512,bits
+163,80,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,17949.201171875,22500.965546253163,-1.7498070496277753,512,bits
+163,90,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,13178.662266591447,16371.932159742471,0.06708733437312342,512,bits
+163,90,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,12249.827428665969,15476.789991816482,0.16631325675687714,512,bits
+163,90,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,11530.88532169025,14691.172137963253,0.24880271195874926,512,bits
+163,90,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,11530.88532169025,14691.172137963253,0.24880271195874926,512,bits
+163,90,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,16363.31894449069,21542.94652329964,-0.6152930455347354,512,bits
+163,90,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,27273.91015625,32112.01583872558,-2.5890231133372543,512,bits
+163,100,LSTM horizon conditioned,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,14500.536939146587,18121.133916807954,0.08184414861064082,512,bits
+163,100,TimesFM raw proxy,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,13363.235385509743,16852.415023164835,0.20590957673981614,512,bits
+163,100,TimesFM calibrated actual AF,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,12705.638360426768,16049.433858221499,0.279780126021017,512,bits
+163,100,Training mean rate,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,12705.638360426768,16049.433858221499,0.279780126021017,512,bits
+163,100,REPORT balance persistence,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,18688.882539794125,24197.48946297465,-0.6371417557091137,512,bits
+163,100,Zero reserve,test,AF actualofferedbits postREPORTtoPlannedAFstart,AF,per-origin known planned service horizon,30214.458984375,35644.92002109904,-2.5525561900181932,512,bits

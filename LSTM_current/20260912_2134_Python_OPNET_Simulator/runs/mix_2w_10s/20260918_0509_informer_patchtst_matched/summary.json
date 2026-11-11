@@ -1,0 +1,106 @@
+{
+  "status": "COMPLETED",
+  "completed_at": "2026-09-18T05:24:18.576216+07:00",
+  "target": "Current-cycle AF GRANT(t)",
+  "methods": [
+    "Informer",
+    "PatchTST"
+  ],
+  "mixes": [
+    "136",
+    "244"
+  ],
+  "sample_counts": {
+    "train": 20480,
+    "val": 10240,
+    "test": 10240
+  },
+  "device": "mps:0",
+  "cpu_ml_fallback": false,
+  "independent_validation_checks": 804,
+  "validation_status": "PASS",
+  "results": [
+    {
+      "model": "Informer",
+      "mix": 136,
+      "partition": "test",
+      "load": "all",
+      "traffic_class": "AF",
+      "target": "GRANT(t)",
+      "samples": 10240,
+      "unit": "bits",
+      "mae_bits": 929.471864377428,
+      "rmse_bits": 1776.1079003745865,
+      "r2": 0.955439022233396,
+      "epochs": 9,
+      "best_epoch": 2,
+      "training_seconds": 136.31375062499865,
+      "test_inference_seconds": 3.178878375001659,
+      "checkpoint_replay_max_difference_bits": 0.0,
+      "output": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260912_2134_Python_OPNET_Simulator/runs/mix_2w_10s/20260918_0509_informer_patchtst_matched/mix136_informer"
+    },
+    {
+      "model": "PatchTST",
+      "mix": 136,
+      "partition": "test",
+      "load": "all",
+      "traffic_class": "AF",
+      "target": "GRANT(t)",
+      "samples": 10240,
+      "unit": "bits",
+      "mae_bits": 4455.051985564362,
+      "rmse_bits": 5148.552470868178,
+      "r2": 0.6255564915590379,
+      "epochs": 10,
+      "best_epoch": 3,
+      "training_seconds": 32.93778295800439,
+      "test_inference_seconds": 0.3489137500000652,
+      "checkpoint_replay_max_difference_bits": 0.0,
+      "output": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260912_2134_Python_OPNET_Simulator/runs/mix_2w_10s/20260918_0509_informer_patchtst_matched/mix136_patchtst"
+    },
+    {
+      "model": "Informer",
+      "mix": 244,
+      "partition": "test",
+      "load": "all",
+      "traffic_class": "AF",
+      "target": "GRANT(t)",
+      "samples": 10240,
+      "unit": "bits",
+      "mae_bits": 758.6167353630066,
+      "rmse_bits": 1210.7497054013056,
+      "r2": 0.9862894137208624,
+      "epochs": 26,
+      "best_epoch": 19,
+      "training_seconds": 400.6232834170005,
+      "test_inference_seconds": 1.6773491659987485,
+      "checkpoint_replay_max_difference_bits": 0.0,
+      "output": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260912_2134_Python_OPNET_Simulator/runs/mix_2w_10s/20260918_0509_informer_patchtst_matched/mix244_informer"
+    },
+    {
+      "model": "PatchTST",
+      "mix": 244,
+      "partition": "test",
+      "load": "all",
+      "traffic_class": "AF",
+      "target": "GRANT(t)",
+      "samples": 10240,
+      "unit": "bits",
+      "mae_bits": 6539.733439731598,
+      "rmse_bits": 7410.1748839596285,
+      "r2": 0.486424618614672,
+      "epochs": 9,
+      "best_epoch": 2,
+      "training_seconds": 29.444007625002996,
+      "test_inference_seconds": 0.35020883299876004,
+      "checkpoint_replay_max_difference_bits": 0.0,
+      "output": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260912_2134_Python_OPNET_Simulator/runs/mix_2w_10s/20260918_0509_informer_patchtst_matched/mix244_patchtst"
+    }
+  ],
+  "limits": [
+    "Offline prediction, not measured neural QoS.",
+    "Historical method-specific preprocessing and objectives retained; not architecture-only controlled.",
+    "Timing is observed elapsed duration on this host; mix136 Informer overlapped Sundial work and does not form a controlled runtime comparison.",
+    "No new simulator or dataset collection; original saved sample hashes and previous raw-window validation inherited."
+  ]
+}

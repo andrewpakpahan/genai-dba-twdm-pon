@@ -1,0 +1,127 @@
+{
+  "status": "COMPLETED",
+  "started_at": "2026-09-18T05:22:37.026559+07:00",
+  "model": "PatchTST",
+  "mix": "244",
+  "target": "AF GRANT(t)",
+  "features": [
+    "EF REPORT",
+    "AF REPORT",
+    "BE REPORT",
+    "previous EF GRANT",
+    "previous AF GRANT",
+    "previous BE GRANT",
+    "report interval seconds"
+  ],
+  "window": 50,
+  "scenario": {
+    "mix": "244",
+    "loads": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "onus": 64,
+    "wavelengths": 2,
+    "rate_per_wavelength": 1000000000.0,
+    "data_budget_seconds": 0.0015,
+    "duration_seconds": 10
+  },
+  "split": "independent seed128 train /129 validation /130 test; no cross-run or ONU windows",
+  "sampling": "32 train and16 validation/test evenly spaced eligible target cycles per ONU per load, chronological within run",
+  "target_window": [
+    3,
+    10
+  ],
+  "counts": {
+    "train": 20480,
+    "val": 10240,
+    "test": 10240
+  },
+  "fixed_training": {
+    "seed": 42,
+    "batch_size": 256,
+    "max_epochs": 50,
+    "patience": 7,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "shuffle": false,
+    "gradient_clipping": false,
+    "loss": "standardized AF mean squared error",
+    "preprocessing": "StandardScaler fitted on training input rows and training AF targets only"
+  },
+  "architecture": {
+    "enc_in": 7,
+    "seq_len": 50,
+    "pred_len": 1,
+    "e_layers": 2,
+    "n_heads": 4,
+    "d_model": 64,
+    "d_ff": 128,
+    "dropout": 0.1,
+    "fc_dropout": 0.1,
+    "head_dropout": 0.0,
+    "individual": false,
+    "patch_len": 10,
+    "stride": 5,
+    "padding_patch": "end",
+    "revin": false,
+    "affine": false,
+    "subtract_last": false,
+    "decomposition": false,
+    "kernel_size": 25
+  },
+  "architecture_extra": "Learned7-to1 AF output head; RevIN disabled",
+  "historical_training_source": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260916_0655_train_patchtst_af_only.py",
+  "source_samples": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260912_2134_Python_OPNET_Simulator/runs/mix_2w_10s/20260916_0848_mix244_comparison/samples.npz",
+  "source_samples_sha256": "ad88895e8c9b13a0c6027fb201d30278941e0aff4f960a9215269e00548d98c2",
+  "source_protocol_sha256": "3cdfab900a66d71a1b45930d6a30412698007850c098677f47f4c373e321d9d7",
+  "origins_sha256": {
+    "train": "e7bf5c22efe8df32a62c7c4330584c4feef600bab9396dd2a776fef467aa1c43",
+    "val": "eaf66c5de61b3c3bdafe467c73ac5abb341cb74dd27778f5c5971cec3939ab2a",
+    "test": "bc968115b3109882d2caa8399c99abfe6b8190f22323b6a7f865522209807672"
+  },
+  "framework": "2.9.0",
+  "python": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/vendor/sundial_venv/bin/python",
+  "device": "mps",
+  "mps_available": true,
+  "cpu_ml_fallback": false,
+  "fallback_environment": "0",
+  "runner_sha256": "ad24b8b1390d0bf061544fab714280d0d7df87908e7d4b56756c5ac5cb3b44e7",
+  "source_hashes": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260912_2134_Python_OPNET_Simulator/runs/mix_2w_10s/20260918_0509_informer_patchtst_matched/mix244_patchtst/source_hashes.json",
+  "inference_in_simulated_time": false,
+  "new_network_simulation": false,
+  "comparability": "Exact same samples as saved LSTM/TimesFM3; method-specific historical preprocessing and objectives differ. Not architecture-only controlled. Inference timings are local unsynchronized-workload observations.",
+  "gpu_audit": {
+    "status": "PASS",
+    "forward_device": "mps:0",
+    "parameter_devices": [
+      "mps:0"
+    ],
+    "backward_gradient_devices": [
+      "mps:0"
+    ],
+    "parameter_count": 68939,
+    "used_gradient_tensor_count": 39,
+    "fallback_disabled": true
+  },
+  "completed_at": "2026-09-18T05:23:08.960768+07:00",
+  "epochs": 9,
+  "best_epoch": 2,
+  "best_val_loss": 0.5721827745437622,
+  "training_seconds": 29.444007625002996,
+  "inference_seconds": {
+    "train": 0.7022537920056493,
+    "val": 0.3505580830023973,
+    "test": 0.35020883299876004
+  },
+  "checkpoint_sha256": "ae619ee08aedc1f301b8c85de022b4a4a2eaa38e27c7f1fc2db4cca3868eec2c",
+  "predictions_sha256": "86d9c06f0117ec1cf40e5e960326f2132ebf2c92e6569a3b1ec60a654398c1dd"
+}

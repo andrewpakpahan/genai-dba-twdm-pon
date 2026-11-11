@@ -1,0 +1,29 @@
+{
+  "lstm": {
+    "mae_bits": 1404.3960194003896,
+    "rmse_bits": 2810.4133260224885,
+    "r2": 0.9261266703588732
+  },
+  "timesfm3": {
+    "mae_bits": 652.9245138905011,
+    "rmse_bits": 1567.080110168081,
+    "r2": 0.9770316562711931
+  },
+  "timesfm3_mae_reduction_pct": 53.50851861789889,
+  "timesfm3_lower_mae_loads": [
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+  ],
+  "lstm_lower_mae_loads": [
+    10,
+    20
+  ],
+  "lstm_test_seconds": 1.2050258340004802,
+  "timesfm3_test_seconds": 520.7523805839992
+}

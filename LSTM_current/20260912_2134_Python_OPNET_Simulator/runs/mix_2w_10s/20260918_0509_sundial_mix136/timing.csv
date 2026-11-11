@@ -1,0 +1,2 @@
+model,test_seconds,training_seconds,backbone_train_seconds,note
+Sundial + adapter,56.218392374998075,7.193776665997575,76.97449125000276,"Includes frozen backbone extraction and head. Excludes loading, serialization and preprocessing outside timed sections. Batched throughput timing, not single-request latency. Inference wall time excluded from simulated time."

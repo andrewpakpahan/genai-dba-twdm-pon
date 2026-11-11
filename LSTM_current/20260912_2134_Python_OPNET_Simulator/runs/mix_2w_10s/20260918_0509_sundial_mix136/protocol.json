@@ -1,0 +1,361 @@
+{
+  "status": "COMPLETED",
+  "scenario": {
+    "mix": "136",
+    "loads": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "onus": 64,
+    "wavelengths": 2,
+    "rate_per_wavelength": 1000000000.0,
+    "data_budget_seconds": 0.0015,
+    "duration_seconds": 10
+  },
+  "source": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260912_2134_Python_OPNET_Simulator/runs/mix_2w_10s/20260916_0835_mix136_comparison",
+  "source_hashes": {
+    "samples.npz": "d7387288b934f2963df892b166c0c5eeb1dbb8fecd16c16f7942a663ef125057",
+    "lstm_predictions.npz": "a371aaea6da83081571ef052e4efd0fc26ebbef7f2d7eaf5ffac3b37e7fb6a93",
+    "timesfm3_predictions.npz": "576917024defba005c7f263009cc376b968391ae4873c7101c5d868f36596124",
+    "metrics.csv": "502b5cdd674c347233c3e814f76ea833b01823ec66ed790585a620181941487b",
+    "lstm_metadata.json": "bb09bfbf318dcbbda59c10000791db938f764e493091861ef195a1a392eff86d",
+    "timesfm3_metadata.json": "cfe8d0d5b0d4f8ac216e8dfcf3d7d97f88de7e007aeb08407af51400881de806",
+    "train_origins.csv": "c655277a13590b17b20014dc532185dd11054dcd0cf9d18b19ae71a9dd544210",
+    "val_origins.csv": "ee18d3f4388924da534115403c6e02ca08746e403262bb541848e58cb221e648",
+    "test_origins.csv": "0b1b3eaed7948c99b5b1d1cdb9b28c0f7d433dd2a5e42af6a15f2833d3f27a0f"
+  },
+  "source_compression": "CSV sources are gzip-compressed; hashes verified on decompressed bytes against original artifact manifest",
+  "source_protocol": {
+    "status": "COMPLETED",
+    "target": "AF GRANT(t)",
+    "features": [
+      "EF REPORT",
+      "AF REPORT",
+      "BE REPORT",
+      "previous EF GRANT",
+      "previous AF GRANT",
+      "previous BE GRANT",
+      "report interval seconds"
+    ],
+    "window": 50,
+    "split": "independent seed128 train /129 validation /130 test; no cross-run or ONU windows",
+    "sampling": "32 train and16 validation/test evenly spaced eligible target cycles per ONU per load, chronological within run",
+    "target_window": [
+      3,
+      10
+    ],
+    "scenario": {
+      "mix": "136",
+      "loads": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100
+      ],
+      "onus": 64,
+      "wavelengths": 2,
+      "rate_per_wavelength": 1000000000.0,
+      "data_budget_seconds": 0.0015,
+      "duration_seconds": 10
+    },
+    "runs": [
+      {
+        "run": "mix136_load010_seed128",
+        "split": "train",
+        "eligible_origins": 2150656,
+        "selected": 2048,
+        "allocation_sha256": "c5406fae8600dec13936e4adb4254449b234fdd32f8cc7a633b8597edff760f7",
+        "manifest_sha256": "58c4c9b18a34684ec687dca41cdb43e30ef2a1009bac729f40a10461377f2a92"
+      },
+      {
+        "run": "mix136_load020_seed128",
+        "split": "train",
+        "eligible_origins": 1885504,
+        "selected": 2048,
+        "allocation_sha256": "9bf6c7c882c2d7fdad6ee62eda4910c4adb5f40dfc8fc3c13005e975da2ff721",
+        "manifest_sha256": "f3e9b5b6916e9e887a986c89fe5238a2fa373731d9a49baf3ba7521a5eaf84b0"
+      },
+      {
+        "run": "mix136_load030_seed128",
+        "split": "train",
+        "eligible_origins": 1624704,
+        "selected": 2048,
+        "allocation_sha256": "81612667baa9803270ba3c438da8ac02ddcc4f362d1618279fac5144cd86cb0d",
+        "manifest_sha256": "64b9b6f6c578e8ad90909681da546ec0589db609df4ab9dc420cb069883e4e1d"
+      },
+      {
+        "run": "mix136_load040_seed128",
+        "split": "train",
+        "eligible_origins": 1369728,
+        "selected": 2048,
+        "allocation_sha256": "3bb04b6cb990c6a43d6338dcb4c4f1119b5aa7bdd8923d5a5eb27a868086a261",
+        "manifest_sha256": "e31084954cad3a87d1c840d5894eb2c96f84bce163147fe353edcce528464eba"
+      },
+      {
+        "run": "mix136_load050_seed128",
+        "split": "train",
+        "eligible_origins": 1119232,
+        "selected": 2048,
+        "allocation_sha256": "3f46fcc62ac624dc0e3d2809045423f20a69e71069ff7f67cbca6b09accbfc82",
+        "manifest_sha256": "d09d7a2e47661d15e20ef5f2e2fbc9fcbc5e2383ee417d7f2cba48549d0daf35"
+      },
+      {
+        "run": "mix136_load060_seed128",
+        "split": "train",
+        "eligible_origins": 874816,
+        "selected": 2048,
+        "allocation_sha256": "c5e8d12e303be1478a60407984f9c8e9ff0f3c4667e77eaecdbe09b51282bc8a",
+        "manifest_sha256": "540bc0ccc98bbf6c31612d9bad1c0b6de1814b03aa777e277886df3993eed840"
+      },
+      {
+        "run": "mix136_load070_seed128",
+        "split": "train",
+        "eligible_origins": 632128,
+        "selected": 2048,
+        "allocation_sha256": "365f934be06911ab48167874d60f8ec2549af950c491fc9c00ecc0ee7563d855",
+        "manifest_sha256": "173d603993621f6204dfd8f5af3cc0309849b1c6735e2ecef5fe399f04888cff"
+      },
+      {
+        "run": "mix136_load080_seed128",
+        "split": "train",
+        "eligible_origins": 368448,
+        "selected": 2048,
+        "allocation_sha256": "0464700e47183a6d61aa396f2775abab2ad5ca2bb02d3e1d9efc92d6a185485a",
+        "manifest_sha256": "3acfea52c32f5077bd57d543ce01e4134b3767f3ca1b64ba38fd5d7340ce2dc0"
+      },
+      {
+        "run": "mix136_load090_seed128",
+        "split": "train",
+        "eligible_origins": 265792,
+        "selected": 2048,
+        "allocation_sha256": "6b34e310c8e202025b1b3cb37c4a596d5e43be311254e60246fcc2f4904d2b9f",
+        "manifest_sha256": "e0ddf98551b536feea5aa8e12d27c5de22e1edd98deb968d61bcb6acc39dfe1b"
+      },
+      {
+        "run": "mix136_load100_seed128",
+        "split": "train",
+        "eligible_origins": 265856,
+        "selected": 2048,
+        "allocation_sha256": "fec8231a77865cfed8d6eac7088039a351d3fdd72e38783c5e874572fab29623",
+        "manifest_sha256": "7a7672c1e092fad43b487b3536832f8bb5a450243c6c79ee631c8a6a12e8471d"
+      },
+      {
+        "run": "mix136_load010_seed129",
+        "split": "val",
+        "eligible_origins": 2152448,
+        "selected": 1024,
+        "allocation_sha256": "33cb2ef2861ede6f54dd217eaf858f61e27bf9b93c8896e63a6d6c49ade62a8e",
+        "manifest_sha256": "3146520be4e1ef8de0ee8e716cc6a7c30f5c99dc0289b29448849cb88030aa53"
+      },
+      {
+        "run": "mix136_load020_seed129",
+        "split": "val",
+        "eligible_origins": 1887040,
+        "selected": 1024,
+        "allocation_sha256": "6493f72558e4e6755a9164624d3e3969ef9a673d06e3cbca16475a1eca7ab363",
+        "manifest_sha256": "5e17494e89789b45e8e33dd970c8f9c8c7ae75c72df8e12ce954a41f2e67b942"
+      },
+      {
+        "run": "mix136_load030_seed129",
+        "split": "val",
+        "eligible_origins": 1627520,
+        "selected": 1024,
+        "allocation_sha256": "29aad15ae5aa31d334a7d9b063321304ff91181ff6455ff88d544fe33f9f7bdf",
+        "manifest_sha256": "0e2e47b1561bfccccc05941fae62be9c2e6ff75c40f7e8c2497d9c61954dc1ec"
+      },
+      {
+        "run": "mix136_load040_seed129",
+        "split": "val",
+        "eligible_origins": 1373248,
+        "selected": 1024,
+        "allocation_sha256": "405c0340ee005554208e964bf6f33a37a3f739a2fbff655af6344451407360db",
+        "manifest_sha256": "a7a6d7a6a47dca77ad751a0b26e35e94599e30b10b594a8c3c3711a87efa1922"
+      },
+      {
+        "run": "mix136_load050_seed129",
+        "split": "val",
+        "eligible_origins": 1120768,
+        "selected": 1024,
+        "allocation_sha256": "3d0ec75ac39b16713f7e258cdf3a4b0eb3c95dedcdb1e8973b7e985e0cdf5899",
+        "manifest_sha256": "c04a677aa74c354143478b0d53a7ed5b9da2be60f18fb27d62728b80f4dd798e"
+      },
+      {
+        "run": "mix136_load060_seed129",
+        "split": "val",
+        "eligible_origins": 874432,
+        "selected": 1024,
+        "allocation_sha256": "00e447a5ce21f41a6baa790e20ad96d44c8689919e74ad6e8571c184fee92b58",
+        "manifest_sha256": "84d184b1348dfa7348dbdeacded8d2bee48da442390beb8b92b8ecdc2fdf3d18"
+      },
+      {
+        "run": "mix136_load070_seed129",
+        "split": "val",
+        "eligible_origins": 630208,
+        "selected": 1024,
+        "allocation_sha256": "147e6245c235bbb2f9fe0fdb800a871589b1f9da56b428a0b99615402efcb06d",
+        "manifest_sha256": "06e3f4f7894d15aa514ad76778b31f2869f96abd462f29d197e0a94c7e9c7c83"
+      },
+      {
+        "run": "mix136_load080_seed129",
+        "split": "val",
+        "eligible_origins": 364544,
+        "selected": 1024,
+        "allocation_sha256": "7b197edc3967f75e326191732ac2af2ad94b2fd84e10c2a4bf09207e90301ed9",
+        "manifest_sha256": "8e2a8909d7dd33189efa1a5413b375045fbf56400bf72ef8d9270325e76170c7"
+      },
+      {
+        "run": "mix136_load090_seed129",
+        "split": "val",
+        "eligible_origins": 265856,
+        "selected": 1024,
+        "allocation_sha256": "7aff469e00bb047ab01a23741383c1efb9726ef8b75d4a72367cb9a35ba1f154",
+        "manifest_sha256": "6917de36ec81e36c1f18f8048e96dd34f7aa504054f3d70865d7f5d11b96feb0"
+      },
+      {
+        "run": "mix136_load100_seed129",
+        "split": "val",
+        "eligible_origins": 265792,
+        "selected": 1024,
+        "allocation_sha256": "e7e3cbfb3f905acd4fb9612e1ea8c7f5e913740520aa03ad965d6e5d01db175b",
+        "manifest_sha256": "e6beeaa5269e46146e56399ee1e909b84f7dac9bcdcbda862e954f8c73ef4564"
+      },
+      {
+        "run": "mix136_load010_seed130",
+        "split": "test",
+        "eligible_origins": 2151744,
+        "selected": 1024,
+        "allocation_sha256": "6ae3ebc0ac2b989a289fded00b2a5ec6fed20bb1156e1770ffa30e4317a03e92",
+        "manifest_sha256": "763feba64f73c2805ac868d8c6f856e01c861988a94a0d42102ad1c439d54ba6"
+      },
+      {
+        "run": "mix136_load020_seed130",
+        "split": "test",
+        "eligible_origins": 1886976,
+        "selected": 1024,
+        "allocation_sha256": "6115e69dde00c96a5e8e08e78d60e8774f557fb0a2abb6f52c1311b168e0dcb0",
+        "manifest_sha256": "188a3db3f9a7e22dc6042fb1bf36543606f70b80e7bda25307021e148c5a80d2"
+      },
+      {
+        "run": "mix136_load030_seed130",
+        "split": "test",
+        "eligible_origins": 1623808,
+        "selected": 1024,
+        "allocation_sha256": "25a6ecf34dae980fd3f1ec724fcd36774eb54111ae2d1cd3b8c3bb12a8698056",
+        "manifest_sha256": "57e6bb95a4d5db19af848c00f9391c24a9b0f9352fca8d17b2d8a182258eb75c"
+      },
+      {
+        "run": "mix136_load040_seed130",
+        "split": "test",
+        "eligible_origins": 1371008,
+        "selected": 1024,
+        "allocation_sha256": "9b413df149dd7fafe08304ed9c73d7f64ccb716bf00596f2450e21492ed58c7f",
+        "manifest_sha256": "c4178c7c9a386caaf0f7ad18bec929ccbf5116559c94dfe2baa672c00e3d422e"
+      },
+      {
+        "run": "mix136_load050_seed130",
+        "split": "test",
+        "eligible_origins": 1117504,
+        "selected": 1024,
+        "allocation_sha256": "3c1622d078d095ec590d8d8b68627cf5229a2d44480d8697f766dc1ae507f0ec",
+        "manifest_sha256": "9095ee04114ef67c562396ea89102887271221707196cfe9e10b65a078621bb1"
+      },
+      {
+        "run": "mix136_load060_seed130",
+        "split": "test",
+        "eligible_origins": 871872,
+        "selected": 1024,
+        "allocation_sha256": "7be3776cf1b9460dff6d47076126c56d7393e7407853242a06d18c4252b23347",
+        "manifest_sha256": "231d1b97b4e6f0a3a4006ed74fe4186453fcac60e05d12fb7cb6ab395660ed6f"
+      },
+      {
+        "run": "mix136_load070_seed130",
+        "split": "test",
+        "eligible_origins": 632064,
+        "selected": 1024,
+        "allocation_sha256": "b9342ababb6c9836ff27c67e2f27bb23e6254ad9d8977ec2349fef38a9218246",
+        "manifest_sha256": "904c423d61ac094f59e95cf2d184365bcd47690d3c15b805ee426079d42e16a7"
+      },
+      {
+        "run": "mix136_load080_seed130",
+        "split": "test",
+        "eligible_origins": 362688,
+        "selected": 1024,
+        "allocation_sha256": "0bfb1ccad005582e509fcba36df27f6f989c78b55c28a9f9b969bd8cf0f2bed6",
+        "manifest_sha256": "f71de4f8ed177c5fccec52df23588fd5e6a0f9aab62076930b3387722c57c45a"
+      },
+      {
+        "run": "mix136_load090_seed130",
+        "split": "test",
+        "eligible_origins": 265792,
+        "selected": 1024,
+        "allocation_sha256": "4913d345e5807eaaac6df767a87829e0cdb79decc6b76a7b7ac34a421e13a890",
+        "manifest_sha256": "fe9dde5b4866b340202ab403f6675a1a3c811818919114a8a930ed4ca0f3dede"
+      },
+      {
+        "run": "mix136_load100_seed130",
+        "split": "test",
+        "eligible_origins": 265792,
+        "selected": 1024,
+        "allocation_sha256": "076e8d0e86c1d4663676e0e750d547f06d4211e3121448cfdfcb08cd3031ff8e",
+        "manifest_sha256": "f08de9a8893487df325147c0161d54ba9e7d3111b255abd5f1c9afced3911e35"
+      }
+    ],
+    "samples_sha256": "d7387288b934f2963df892b166c0c5eeb1dbb8fecd16c16f7942a663ef125057",
+    "runner_sha256": "624978d50feaaac16191c9296af8fd1f1069fd95f0729220935b9243a2ac7ac3",
+    "inference_in_simulated_time": false,
+    "new_qos_simulation": false,
+    "executed_runner_sha256": "4da9177d52569ae4346e113c56ddd96249d5df42a4e61cbf4a7bc09b52486db4"
+  },
+  "target": "AF GRANT(t)",
+  "split": "128 train /129 validation /130 test",
+  "adapter": {
+    "type": "custom frozen Sundial backbone plus supervised MLP; generative flow head unused",
+    "inputs": "Each of 7 causal50-cycle features independently encoded; last token768D concatenated across channels plus per-channel transformed current value,mean,std",
+    "transform": "log1p first6 bit features, raw seconds interval; per-window per-channel zscore before backbone; retain mean/std/current to preserve physical scale",
+    "dimension": 5397,
+    "head": "Linear(5397,64),ReLU,Dropout0.1,Linear(64,1)",
+    "training": "train-only StandardScaler on features and target; Adam0.001,batch256,50epochs maximum,patience7,shuffleFalse,seed42",
+    "control": "same MLP recipe on350flattened log-transformed raw features; different input dimension, not matched parameter count",
+    "backbone_frozen": true,
+    "extraction_batch": 16
+  },
+  "adapter_protocol_reference": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260912_2134_Python_OPNET_Simulator/runs/mix_2w_10s/20260917_1313_sundial_mix244",
+  "native_sampling_executed": false,
+  "adapter_only_control_executed": false,
+  "reason": "User confirmed five methods and requested shortest completion time; only missing matched seven-input adapter run is executed",
+  "inference_in_simulated_time": false,
+  "new_qos_simulation": false,
+  "runner_sha256": "913983343cb319680ae581b152186e3a940407318c1863492c28e8a364add7f2",
+  "raw_archive_recheck_available": 0,
+  "raw_archive_limit": "Raw allocation archives were removed earlier; current samples/origins/manifest hashes verified against saved validated source; no new raw-window reconstruction claimed",
+  "prior_raw_validation": {
+    "status": "PASS",
+    "independent_csv_metric_rows": 176,
+    "raw_windows_reconstructed": 40960,
+    "visual_review": [
+      "comparison.png",
+      "predictions_by_load.png",
+      "learning_curve.png"
+    ],
+    "gpu_audit": "PASS",
+    "prediction_replay": "zero difference both models"
+  },
+  "python": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/vendor/sundial_venv/bin/python",
+  "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "mps_fallback": "0"
+}

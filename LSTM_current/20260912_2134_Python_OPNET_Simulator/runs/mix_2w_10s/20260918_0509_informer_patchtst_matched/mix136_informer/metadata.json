@@ -1,0 +1,117 @@
+{
+  "status": "COMPLETED",
+  "started_at": "2026-09-18T05:12:31.133504+07:00",
+  "model": "Informer",
+  "mix": "136",
+  "target": "AF GRANT(t)",
+  "features": [
+    "EF REPORT",
+    "AF REPORT",
+    "BE REPORT",
+    "previous EF GRANT",
+    "previous AF GRANT",
+    "previous BE GRANT",
+    "report interval seconds"
+  ],
+  "window": 50,
+  "scenario": {
+    "mix": "136",
+    "loads": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80,
+      90,
+      100
+    ],
+    "onus": 64,
+    "wavelengths": 2,
+    "rate_per_wavelength": 1000000000.0,
+    "data_budget_seconds": 0.0015,
+    "duration_seconds": 10
+  },
+  "split": "independent seed128 train /129 validation /130 test; no cross-run or ONU windows",
+  "sampling": "32 train and16 validation/test evenly spaced eligible target cycles per ONU per load, chronological within run",
+  "target_window": [
+    3,
+    10
+  ],
+  "counts": {
+    "train": 20480,
+    "val": 10240,
+    "test": 10240
+  },
+  "fixed_training": {
+    "seed": 42,
+    "batch_size": 256,
+    "max_epochs": 50,
+    "patience": 7,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "shuffle": false,
+    "gradient_clipping": false,
+    "loss": "standardized AF mean squared error",
+    "preprocessing": "StandardScaler fitted on training input rows and training AF targets only"
+  },
+  "architecture": {
+    "feature_count": 7,
+    "target_count": 1,
+    "pred_len": 1,
+    "d_model": 64,
+    "n_heads": 4,
+    "d_ff": 128,
+    "e_layers": 2,
+    "d_layers": 1,
+    "dropout": 0.1
+  },
+  "architecture_extra": "ProbSparse factor5, GELU, embed_type4, distillation, label_len25; eval CPU attention seed4242",
+  "historical_training_source": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260915_0722_train_casebase_af_only.py",
+  "source_samples": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260912_2134_Python_OPNET_Simulator/runs/mix_2w_10s/20260916_0835_mix136_comparison/samples.npz",
+  "source_samples_sha256": "d7387288b934f2963df892b166c0c5eeb1dbb8fecd16c16f7942a663ef125057",
+  "source_protocol_sha256": "b6e3adfea957187d31ba17ff99ea7f32ad39db7b367129ce7ec863576bd509f2",
+  "origins_sha256": {
+    "train": "e94780606ae1f0f7814007ce6d234b16c05a422167c41ecf2e1c1c999f588d7f",
+    "val": "af13cdce56f25d990e2be4978e2d8296f3ad92693f625e9ff19771d6a658cedc",
+    "test": "392a09d86853e5b5298c8584a2e52129f0c1781141d7b5a6501e27d7bcbed82e"
+  },
+  "framework": "2.9.0",
+  "python": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/vendor/sundial_venv/bin/python",
+  "device": "mps",
+  "mps_available": true,
+  "cpu_ml_fallback": false,
+  "fallback_environment": "0",
+  "runner_sha256": "ad24b8b1390d0bf061544fab714280d0d7df87908e7d4b56756c5ac5cb3b44e7",
+  "source_hashes": "/Users/macintoshhd/Projects/GenAI_prediction_PON/LSTM_current/20260912_2134_Python_OPNET_Simulator/runs/mix_2w_10s/20260918_0509_informer_patchtst_matched/mix136_informer/source_hashes.json",
+  "inference_in_simulated_time": false,
+  "new_network_simulation": false,
+  "comparability": "Exact same samples as saved LSTM/TimesFM3; method-specific historical preprocessing and objectives differ. Not architecture-only controlled. Inference timings are local unsynchronized-workload observations.",
+  "gpu_audit": {
+    "status": "PASS",
+    "forward_device": "mps:0",
+    "parameter_devices": [
+      "mps:0"
+    ],
+    "backward_gradient_devices": [
+      "mps:0"
+    ],
+    "parameter_count": 133441,
+    "used_gradient_tensor_count": 70,
+    "fallback_disabled": true
+  },
+  "completed_at": "2026-09-18T05:15:06.431983+07:00",
+  "epochs": 9,
+  "best_epoch": 2,
+  "best_val_loss": 0.07455113530158997,
+  "training_seconds": 136.31375062499865,
+  "inference_seconds": {
+    "train": 3.131783542004996,
+    "val": 1.5692732079987763,
+    "test": 3.178878375001659
+  },
+  "checkpoint_sha256": "d5e18f40f439514270c374d7246e8257999ea0086f8ffba7984baa81a5167dbc",
+  "predictions_sha256": "b83d4aadf4c9cbc132745e246f9ec830e044ace092b390be3a7fa44e64b28a27"
+}

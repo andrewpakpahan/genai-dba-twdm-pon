@@ -1,0 +1,22 @@
+{
+  "packet_throughput": "Sum of packet bits whose wire completion falls in [begin,end), divided by window seconds. Excludes REPORT/GATE/control packets; packet bits may include protocol overhead and are not verified application payload goodput. Not equated with OPNET receiver statistic aggregation.",
+  "capacity_bps": "Sum of configured wavelength rates for all-channel rows; the individual wavelength rate for per-channel rows. Class rows share the same physical denominator. Missing rates are unavailable, never assumed.",
+  "payload_utilization": "Completed data-packet throughput divided by capacity_bps, without clipping. EF/AF/BE fractions partition the total data-packet utilization; packet bits are not verified application-payload bits. REPORT/GATE/control use is excluded.",
+  "offered_load_fraction": "Offered packet bits per second divided by total configured capacity. Changing wavelength rates does not regenerate or rescale the recorded exogenous traffic.",
+  "delay": "Wire completion time minus original offered packet arrival time, converted from seconds to milliseconds; packet-weighted mean/percentiles. Native 80% uniform mean agreement is separate evidence, not encoded as a universal validation flag.",
+  "delay_population_spread": "Population standard deviation (ddof=0) and variance over all selected completed packet delays. Standard deviation in ms; variance in ms^2. Total pools packet observations across classes, not class means.",
+  "ipdv": "Signed current-minus-previous packet delay, adjacent within the same ONU and class in service-start order; original row order breaks exact service-start ties. Both packet completions must lie in the window. No inter-ONU/class or boundary-crossing pairs. Absolute summary is abs(signed difference), in ms.",
+  "ipdv_total": "Pool valid within-ONU/class differences across flows. Never difference packets from different flows. Per-wavelength rows include a pair only when both packets used that wavelength.",
+  "ipdv_rms": "sqrt(mean(signed_ipdv_ms^2)), identical to RMS of absolute IPDV.",
+  "percentiles": "numpy.quantile linear interpolation; sample/pair counts reported independently.",
+  "native_EF_variance": "Native EF statistic uses oms_stat_sample_add(..., ete_delay*1000) and oms_stat_variance_obtain for a running statistic. These fixed-window population estimates are different and have not been validated against that native trace.",
+  "bins": "Default 0.05-second non-overlapping half-open completion bins; final partial bin uses its actual duration. Full bins sum exactly to their window packet counts/bits.",
+  "offered_and_drops": "All-channel records count arrival/drop times in the same [begin,end) window. Counts are not the source cohort of the completed packets; queued carryover may increase completions beyond window arrivals. Per-wavelength offered/drop counts unavailable without authoritative channel assignment.",
+  "runtime_forecast": {
+    "target": "AF offered arrival bits in (REPORT snapshot, final causally planned AF-service start]",
+    "bias": "Prediction minus actual; positive means overprediction.",
+    "r2": "One minus squared error / variation around the target mean on this case valid origins; undefined if target variance is zero.",
+    "censoring": "Every planned endpoint >= configured simulation stop is excluded before labels and metrics are calculated.",
+    "mean_benchmark": "Per-load training-only mean arrival rate times each exact same valid horizon; no runtime-label fitting."
+  }
+}

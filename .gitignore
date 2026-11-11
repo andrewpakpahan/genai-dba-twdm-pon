@@ -1,0 +1,4 @@
+# Only the files added explicitly to this release are tracked.
+# Everything else in this working folder (raw traces, model weights,
+# drafts, local settings) is ignored.
+*
